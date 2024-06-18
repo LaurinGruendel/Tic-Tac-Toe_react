@@ -16,7 +16,6 @@ function Board({ xIsNext, squares, onPlay }) {
     : "Next player: " + (xIsNext ? "X" : "O");
   return (
     <>
-      blablabla
       <div className="status">{status}</div>
       <div className="board-row">
         <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
